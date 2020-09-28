@@ -76,11 +76,7 @@ public class Main {
                     Cd cd = new Cd(val[1], dir);
                     cd.execute();
                     currentDir = cd.currentDir;
-
-                } else if (val[0].equals("cp")) {
-
-                } else if (val[0].equals("mv")) {
-
+                   
                 } else if (val[0].equals("rm")) {
                     
                       FileHierarchy dir;
